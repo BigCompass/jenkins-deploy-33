@@ -36,8 +36,6 @@
 					<cloudHubDeployment>
 						<uri>https://anypoint.mulesoft.com</uri>
 						<muleVersion>4.4.0</muleVersion>
-						<username>${server.username}</username>
-						<password>${server.password}</password>
 						<applicationName>jenkins-deploy-33-rakesh</applicationName>
 						<connectedAppClientId>5e1c0dcf689d475d8fe0f7f7187883dd</connectedAppClientId>
 						<connectedAppClientSecret>1B649363257A4c048Da2bc9553838199</connectedAppClientSecret>
