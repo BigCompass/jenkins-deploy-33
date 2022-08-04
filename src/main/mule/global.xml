@@ -12,7 +12,7 @@ http://www.mulesoft.org/schema/mule/secure-properties http://www.mulesoft.org/sc
 	 <http:listener-config name="api-httpListenerConfig">
         <http:listener-connection host="${http.host}" port="${http.port}" readTimeout="${read-timeout}" />
     </http:listener-config>
-    <apikit:config name="api-config" api="resource::37513a5c-61c8-4566-8c30-c9d2a08150d8:template-api-raml:1.0.0:raml:zip:api.raml" outboundHeadersMapName="outboundHeaders" httpStatusVarName="httpStatus" />
+    <apikit:config name="api-config" api="resource::37513a5c-61c8-4566-8c30-c9d2a08150d8:test-api-annika:1.0.0:raml:zip:api.raml" outboundHeadersMapName="outboundHeaders" httpStatusVarName="httpStatus" />
 	
 	<configuration-properties doc:name="Common-Configuration properties" doc:id="ed1913bb-a80b-4748-9f5a-1b360c75bdb3" file="properties/common-config.yaml" />
 	<configuration-properties doc:name="Configuration properties" doc:id="44018fe0-9573-4de4-80c8-e6235bda129c" file="properties/${mule.env}-config.yaml" />
